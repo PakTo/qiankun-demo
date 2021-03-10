@@ -1,0 +1,11 @@
+{
+  "name": "qiankun-demo",
+  "version": "1.0.0",
+  "description": "微前端框架qiankun自我学习Demo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

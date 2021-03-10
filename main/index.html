@@ -1,0 +1,31 @@
+<!--
+ * @Author: zoubotao
+ * @Date: 2021-03-10 09:40:30
+ * @LastEditors: zoubotao
+ * @LastEditTime: 2021-03-10 11:34:17
+ * @FilePath: \qiankun-demo\main\index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QianKun Demo</title>
+</head>
+
+<body>
+  <ul>
+    <li onclick="push('/vue')">Vue</li>
+    <li onclick="push('/vue3')">Vue3</li>
+  </ul>
+  <div id="app"></div>
+  <script>
+    function push(subapp) {
+      history.pushState(null, subapp, subapp)
+    }
+  </script>
+</body>
+
+</html>
